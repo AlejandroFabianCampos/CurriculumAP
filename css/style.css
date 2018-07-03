@@ -1,0 +1,66 @@
+.leftside{
+	background-color: grey;
+}
+
+.rightside {
+	background-color: #706613;
+}
+
+.bodystyle{
+	color: white;
+}
+
+.righttitle{
+	background-color: #38060c;
+}
+
+.nomargin{
+	margin-bottom: 0px;
+}
+
+.ima { 
+	border-radius: 100px;
+	display:block;
+	height: auto;
+	max-width: 80%;
+	margin: 20px auto;
+}
+
+.sidetitl{
+	background-color: black;
+	text-align: center;
+	border-radius: 10px;
+}
+
+.title{
+	text-align: center;
+	margin-top: 10px;
+	background-color: #600510;
+}
+
+.fontsize {
+	font-size: 5vw;
+}
+
+.texto {
+	font-size: 14px;
+}
+
+@media(max-width: 767px) and (min-width: 480px) {
+	.texto{
+		font-size: 20px;
+	}
+	.ima{
+		border-radius: 100px;
+		display:block;
+		height: auto;
+		max-width: 50%;
+		margin: 20px auto;
+	}
+}
+
+/*@media(max-width: 765px) and (min-width: 480px) {
+	.texto{
+		font-size: 12px;
+	}
+}*/
